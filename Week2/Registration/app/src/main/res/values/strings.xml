@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="term_conditions">
+        <![CDATA[
+        <p><strong>1. Penerimaan Syarat dan Ketentuan</strong></p>
+        <p>Dengan mengakses dan menggunakan aplikasi Plantic ("Aplikasi"), Anda setuju untuk mematuhi dan terikat oleh syarat dan ketentuan berikut ini. Jika Anda tidak setuju dengan syarat dan ketentuan ini, Anda tidak diperbolehkan menggunakan Aplikasi.</p>
+
+        <p><strong>2. Deskripsi Aplikasi</strong></p>
+        <p>Plantic adalah aplikasi yang dirancang untuk memberikan layanan konsultasi dan diskusi terkait perkebunan dan penyakit tanaman. Aplikasi ini memungkinkan pengguna untuk mendapatkan informasi, saran, dan dukungan dari ahli dan sesama pengguna mengenai masalah pertanian dan kesehatan tanaman.</p>
+
+        <p><strong>3. Akun Pengguna</strong></p>
+        <p>3.1 <strong>Pendaftaran:</strong> Untuk menggunakan beberapa fitur Aplikasi, Anda mungkin diminta untuk mendaftar dan membuat akun. Anda setuju untuk memberikan informasi yang akurat dan lengkap selama proses pendaftaran.</p>
+        <p>3.2 <strong>Keamanan Akun:</strong> Anda bertanggung jawab untuk menjaga kerahasiaan informasi akun Anda dan untuk semua aktivitas yang terjadi di bawah akun Anda. Segera beri tahu kami jika Anda mengetahui adanya penggunaan akun yang tidak sah.</p>
+
+        <p><strong>4. Penggunaan Aplikasi</strong></p>
+        <p>4.1 <strong>Tujuan Penggunaan:</strong> Aplikasi ini hanya boleh digunakan untuk tujuan konsultasi dan diskusi tentang perkebunan dan penyakit tanaman. Penggunaan lain, termasuk tetapi tidak terbatas pada, spam, penipuan, dan penyalahgunaan, dilarang.</p>
+        <p>4.2 <strong>Konten:</strong> Anda setuju untuk tidak mengunggah, memposting, atau membagikan konten yang melanggar hak kekayaan intelektual orang lain, bersifat menyinggung, atau ilegal.</p>
+
+        <p><strong>5. Hak Kekayaan Intelektual</strong></p>
+        <p>Semua konten dan materi yang tersedia di Aplikasi, termasuk tetapi tidak terbatas pada teks, grafik, logo, dan perangkat lunak, adalah milik Plantic atau pihak ketiga yang memiliki hak terkait dan dilindungi oleh hak cipta dan undang-undang hak kekayaan intelektual lainnya. Anda tidak diperbolehkan menyalin, mendistribusikan, atau menggunakan materi tersebut tanpa izin tertulis dari pemilik hak cipta.</p>
+
+        <p><strong>6. Privasi dan Keamanan</strong></p>
+        <p>6.1 <strong>Kebijakan Privasi:</strong> Penggunaan Aplikasi Anda diatur oleh Kebijakan Privasi kami, yang menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda.</p>
+        <p>6.2 <strong>Keamanan Data:</strong> Kami berkomitmen untuk menjaga keamanan data pribadi Anda. Namun, tidak ada sistem yang sepenuhnya aman, dan kami tidak dapat menjamin keamanan absolut terhadap data Anda.</p>
+
+        <p><strong>7. Tanggung Jawab dan Pembatasan</strong></p>
+        <p>7.1 <strong>Tanggung Jawab Pengguna:</strong> Anda bertanggung jawab penuh atas keputusan dan tindakan yang diambil berdasarkan informasi yang diberikan melalui Aplikasi. Kami tidak bertanggung jawab atas kerugian atau kerusakan yang timbul dari penggunaan Aplikasi atau ketergantungan pada informasi yang disediakan.</p>
+        <p>7.2 <strong>Penafian:</strong> Aplikasi ini disediakan "sebagaimana adanya" dan "sebagaimana tersedia" tanpa jaminan atau pernyataan apa pun. Kami tidak menjamin bahwa Aplikasi akan bebas dari kesalahan, aman, atau selalu tersedia.</p>
+
+        <p><strong>8. Perubahan Syarat dan Ketentuan</strong></p>
+        <p>Kami dapat mengubah syarat dan ketentuan ini dari waktu ke waktu. Perubahan akan diberitahukan kepada Anda melalui Aplikasi atau melalui email. Penggunaan Aplikasi setelah perubahan tersebut berarti Anda menyetujui syarat dan ketentuan yang telah diperbarui.</p>
+
+        <p><strong>9. Penghentian</strong></p>
+        <p>Kami berhak untuk menghentikan atau menangguhkan akses Anda ke Aplikasi kapan saja, tanpa pemberitahuan sebelumnya, jika kami percaya bahwa Anda telah melanggar syarat dan ketentuan ini.</p>
+
+        <p><strong>10. Hukum yang Berlaku</strong></p>
+        <p>Syarat dan ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum [Negara/Kawasan] tanpa memperhatikan konflik hukum. Setiap sengketa yang timbul dari syarat dan ketentuan ini akan diselesaikan di pengadilan yang berwenang di [Kota/Kawasan].</p>
+
+        <p><strong>11. Kontak</strong></p>
+        <p>Jika Anda memiliki pertanyaan mengenai syarat dan ketentuan ini, silakan hubungi kami di [email/kontak].</p>
+        ]]>
+    </string>
+</resources>
