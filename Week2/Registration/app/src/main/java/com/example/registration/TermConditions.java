@@ -2,7 +2,6 @@ package com.example.registration;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
@@ -40,6 +39,14 @@ public class TermConditions extends AppCompatActivity {
 
         tvTermConditions.setText(HtmlCompat.fromHtml(getString(R.string.term_conditions), HtmlCompat.FROM_HTML_MODE_LEGACY));
 
+        // Retrieve data from intent
+        Intent intent = getIntent();
+        String name = intent.getStringExtra("name");
+        String nim = intent.getStringExtra("nim");
+        String siblings = intent.getStringExtra("siblings");
+        String allowance = intent.getStringExtra("allowance");
+        String gender = intent.getStringExtra("gender");
+
         btnCancel.setOnClickListener(v -> {
             finish();
         });
@@ -47,8 +54,13 @@ public class TermConditions extends AppCompatActivity {
         btnRegister.setOnClickListener(v -> {
             if (cbAgree.isChecked()) {
                 Toast.makeText(this, "Pendaftaran berhasil", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(this, RegistrationForm.class);
-                startActivity(intent);
+                Intent resultIntent = new Intent(this, FormResult.class);
+                resultIntent.putExtra("name", name);
+                resultIntent.putExtra("nim", nim);
+                resultIntent.putExtra("siblings", siblings);
+                resultIntent.putExtra("allowance", allowance);
+                resultIntent.putExtra("gender", gender);
+                startActivity(resultIntent);
             } else {
                 cbAgree.requestFocus();
                 Toast.makeText(this, "Centang kotak persetujuan terlebih dahulu!", Toast.LENGTH_SHORT).show();

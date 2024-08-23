@@ -48,7 +48,7 @@ public class RegistrationForm extends AppCompatActivity {
             String nim = etNim.getText().toString();
             String siblings = etSiblings.getText().toString();
             String allowance = etAllowance.getText().toString();
-            Character gender = rbMale.isChecked() ? 'M' : 'F';
+            String gender = rbMale.isChecked() ? "M" : "F";
 
             if (name.isEmpty()) {
                 etName.setError("Nama tidak boleh kosong");
@@ -64,6 +64,11 @@ public class RegistrationForm extends AppCompatActivity {
                 etAllowance.requestFocus();
             } else {
                 Intent intent = new Intent(RegistrationForm.this, TermConditions.class);
+                intent.putExtra("name", name);
+                intent.putExtra("nim", nim);
+                intent.putExtra("siblings", siblings);
+                intent.putExtra("allowance", allowance);
+                intent.putExtra("gender", gender);
                 startActivity(intent);
             }
         });

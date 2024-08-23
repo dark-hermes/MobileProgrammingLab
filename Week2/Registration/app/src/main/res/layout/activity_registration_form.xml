@@ -64,7 +64,9 @@
                 android:layout_marginTop="4dp"
                 app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconDrawable="@drawable/nameicon"
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_name"
@@ -86,7 +88,9 @@
                 app:counterMaxLength="11"
                 app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconDrawable="@drawable/nimicon"
+                >
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_nim"
@@ -109,7 +113,8 @@
                 app:helperText="Jika tidak ada, isi dengan 0"
                 app:helperTextTextColor="@color/secondary"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"
+                app:startIconDrawable="@drawable/familyicon">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_siblings"
@@ -130,7 +135,8 @@
                 app:errorEnabled="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:prefixText="Rp">
+                app:prefixText="$"
+                app:startIconDrawable="@drawable/moneyicon">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_allowance"
@@ -158,24 +164,36 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:orientation="vertical"
-                android:checkedButton="@id/rb_male">
+                android:orientation="horizontal"
+                android:checkedButton="@id/rb_male"
+                android:layout_marginBottom="50dp">
 
                 <RadioButton
                     android:id="@+id/rb_male"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:paddingHorizontal="16dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="Laki-laki"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:textColor="@drawable/radio_text_selector"
+                    />
 
                 <RadioButton
                     android:id="@+id/rb_female"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:paddingHorizontal="16dp"
                     android:fontFamily="@font/poppins_medium"
                     android:text="Perempuan"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@drawable/null_radio_button"
+                    android:textColor="@drawable/radio_text_selector"
+                    />
             </RadioGroup>
 
             <Button
@@ -190,7 +208,9 @@
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
         </LinearLayout>
     </ScrollView>
 
