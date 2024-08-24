@@ -63,7 +63,7 @@ public class RegistrationForm extends AppCompatActivity {
                 etAllowance.setError("Jumlah uang per bulan wajib diisi!");
                 etAllowance.requestFocus();
             } else {
-                Intent intent = new Intent(RegistrationForm.this, TermConditions.class);
+                Intent intent = new Intent(RegistrationForm.this, ConfirmationForm.class);
                 intent.putExtra("name", name);
                 intent.putExtra("nim", nim);
                 intent.putExtra("siblings", siblings);
@@ -74,4 +74,6 @@ public class RegistrationForm extends AppCompatActivity {
         });
 
     }
+
+
 }
