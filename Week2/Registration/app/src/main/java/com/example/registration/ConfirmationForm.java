@@ -24,7 +24,6 @@ public class ConfirmationForm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation_form);
 
-        // Initialize views
         tvName = findViewById(R.id.tv_name);
         tvNim = findViewById(R.id.tv_nim);
         tvSiblings = findViewById(R.id.tv_siblings);
@@ -33,7 +32,6 @@ public class ConfirmationForm extends AppCompatActivity {
         btnEdit = findViewById(R.id.btn_edit);
         btnProceed = findViewById(R.id.btn_proceed);
 
-        // Get data from Intent
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
         String nim = intent.getStringExtra("nim");
@@ -41,22 +39,16 @@ public class ConfirmationForm extends AppCompatActivity {
         String allowance = intent.getStringExtra("allowance");
         String gender = intent.getStringExtra("gender");
 
-        // Set data to TextViews
         tvName.setText(name);
         tvNim.setText(nim);
         tvSiblings.setText(siblings);
         tvAllowance.setText(allowance);
         tvGender.setText(gender.equals("M") ? "Laki-laki" : "Perempuan");
-
-        // Edit button action
         btnEdit.setOnClickListener(v -> {
-            // Finish this activity and go back to RegistrationForm
             finish();
         });
 
-        // Proceed button action
         btnProceed.setOnClickListener(v -> {
-            // Start the next activity (TermConditions in this case)
             Intent proceedIntent = new Intent(ConfirmationForm.this, TermConditions.class);
             proceedIntent.putExtra("name", name);
             proceedIntent.putExtra("nim", nim);
